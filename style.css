@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Catamaran' ;
+    src: url(Catamaran/Catamaran-VariableFont_wght.ttf);
+}
+body{
+    background-image: linear-gradient(90deg,#272B32,#22252B) ;
+    cursor: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/Diamond_Sword_JE3_BE3.png/revision/latest/scale-to-width/360?cb=20201017135722") auto;
+}
+
+nav{
+    
+   min-height: 20px;
+    text-align: right;
+
+}
+
+ a{
+    display: inline;
+   font-family: 'Catamaran',sans-serif;
+   font-weight: 800;
+   font-size: 19px;
+   text-align: left;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   padding: 11px 22px 10px 10px;
+   margin: 0px 18px 10px 10px;
+   transition-duration: 3s;
+}
+
+a:hover{
+    color:  #433B99;
+    transform: scaleX(1);
+    transition: 1s;
+
+}
+
+main{
+    padding: 0px 8px 6px 4px;
+    margin: 0px 418px 18px 32px;
+}
+h1{
+    display: inline;
+    text-align: right;
+
+    font-family: 'Catamaran',sans-serif;
+    font-weight: 900;
+
+    color:#fbfbff;
+    transition-duration: 3s;
+}
+h1:hover{
+    transition: 2s;
+    color: #433B99;
+}
+header{
+    min-width: px;
+    max-width: px;
+}
